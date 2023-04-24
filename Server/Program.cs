@@ -41,6 +41,6 @@ catch (SocketException ex)
 
 void Info()
 {
-    Console.WriteLine($"The IPEndPoint is: {address}:{port}\nThe AddressFamily is: {AddressFamily.InterNetwork.ToString()}\n" +
+    Console.WriteLine($"The IPEndPoint is: {endPoint.Address}:{endPoint.Port}\nThe AddressFamily is: {AddressFamily.InterNetwork.ToString()}\n" +
 		$"The address is: {address}, and the port is:{port}");
 }
